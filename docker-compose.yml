@@ -3,7 +3,7 @@ version: "3"
 services:
   http:
     build: 
-      context: ./bin/webserver
+      context: ./bin/http
     restart: 'always'
     ports:
       - "80:80"
